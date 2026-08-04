@@ -7,11 +7,6 @@ define(['N/record', 'N/log'], (record, log) => {
 
     const beforeLoad = (context) => {
         try {
-          
-            log.debug({
-                title: 'Event Type',
-                details: context.type
-            });
 
             log.debug({
                 title: 'Record Type',
