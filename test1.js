@@ -7,11 +7,7 @@ define(['N/record', 'N/log'], (record, log) => {
 
     const beforeLoad = (context) => {
         try {
-            log.debug({
-                title: 'Before Load Trigger',
-                details: 'User Event executed before loading record'
-            });
-
+          
             log.debug({
                 title: 'Event Type',
                 details: context.type
